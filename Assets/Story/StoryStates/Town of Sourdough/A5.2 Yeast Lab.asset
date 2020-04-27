@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f565b24a783e611429de5f64e715a603, type: 3}
+  m_Name: A5.2 Yeast Lab
+  m_EditorClassIdentifier: 
+  spaceTitle: Yeast Lab
+  ContainerImage: {fileID: 0}
+  storyText: "\"Ah, good choice. The yeast protection plan is a small capsule filled
+    with a solution that will preserve a bit of your starter. If anything were to
+    happen to it, this would get you up and running again. Be careful, it can only
+    be used once and the yeast may take awhile to get going again.\" \r\n\r\n"
+  options: 1) Continue
+  optionsArray:
+  - 1) Continue
+  nextStates:
+  - {fileID: 11400000, guid: 3a83d7070507954469c44a9dc8e095a9, type: 2}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f565b24a783e611429de5f64e715a603, type: 3}
+  m_Name: A2 Town Elder
+  m_EditorClassIdentifier: 
+  spaceTitle: Sourdough - Town Elder
+  ContainerImage: {fileID: 21300000, guid: 42615fa25b83d5c4ba7f39027ecc8560, type: 3}
+  storyText: '"You must share our discoveries with the island or we will continue
+    to struggle against each other. Other towns will not accept this message with
+    open arms and you must do whatever you can to convince them.
+
+
+    Beyond all
+    else, you must not let the yeast die. For it is a connected creature and whatever
+    happens to the yeast that travels with you, shall happen to the original mother."'
+  options: '1) Collect resources around town
+
+
+    2) Leave <Opens Map>'
+  optionsArray:
+  - 1) Collect resources around town
+  - 2) Leave <Opens Map>
+  nextStates:
+  - {fileID: 11400000, guid: 98f832a2c1c0b0d4a8d32c7e00a5c87e, type: 2}

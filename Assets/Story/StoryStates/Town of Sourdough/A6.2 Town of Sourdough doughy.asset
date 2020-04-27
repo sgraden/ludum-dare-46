@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f565b24a783e611429de5f64e715a603, type: 3}
+  m_Name: A6.2 Town of Sourdough doughy
+  m_EditorClassIdentifier: 
+  spaceTitle: Town of Sourdough - Doughy
+  ContainerImage: {fileID: 21300000, guid: 477973b1f1ab0fd4d9acc01c041956f7, type: 3}
+  storyText: "\"Asking me for advice? I think you know exactly what you should do.
+    You will take the yeast of our town out to the whole island. I am sure we will
+    meet again soon, once you have accomplished your goals. But here, for old times
+    sake, take a bit of this starter I was crafting. With a little extra love and
+    care, I think it is going to have some interesting properties to it.\" \r"
+  options: 1) Continue
+  optionsArray:
+  - 1) Continue
+  nextStates:
+  - {fileID: 11400000, guid: 9371dd6225dd17a40a6e75e6eeea32f7, type: 2}

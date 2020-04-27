@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f565b24a783e611429de5f64e715a603, type: 3}
+  m_Name: A4 General Store
+  m_EditorClassIdentifier: 
+  spaceTitle: General Store
+  ContainerImage: {fileID: 0}
+  storyText: 'Welcome to Sourdough''s General Store. Here you''ll find all you need
+    to get through the day. Maybe even a little friendly advice!
+
+'
+  options: '1) Ask about traveling on Yeaster Island
+
+
+    2) Buy 1 general supply
+
+
+    3)
+    Back to town'
+  optionsArray:
+  - 1) Ask about traveling on Yeaster Island
+  - 2) Buy 1 general supply
+  - 3) Back to town
+  nextStates:
+  - {fileID: 11400000, guid: 6afbe500931eb064daa8d9e308594886, type: 2}
+  - {fileID: 11400000, guid: e55c0c192d9fae24ca5fd9f8440ad7d9, type: 2}
+  - {fileID: 11400000, guid: 98f832a2c1c0b0d4a8d32c7e00a5c87e, type: 2}

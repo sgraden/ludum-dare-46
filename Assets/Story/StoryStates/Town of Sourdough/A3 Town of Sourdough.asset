@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f565b24a783e611429de5f64e715a603, type: 3}
+  m_Name: A3 Town of Sourdough
+  m_EditorClassIdentifier: 
+  spaceTitle: Town of Sourdough
+  ContainerImage: {fileID: 21300000, guid: ea9975b25b85d4345a886980a080d388, type: 3}
+  storyText: "This is the town of sourdough. Grown from a small culture into the
+    thriving town it is today. Explore the general store or yeast lab. You can also
+    speak to the elders or you best friend, Doughy. \r"
+  options: '1) Checkout the general store
+
+
+    2) Visit the Yeast Lab
+
+
+    3) Speak
+    to the elders again
+
+
+    4) Talk to Doughy
+
+
+    5) Leave the town'
+  optionsArray:
+  - 1) Checkout the general store
+  - 2) Visit the Yeast Lab
+  - 3) Speak to the elders again
+  - 4) Talk to Doughy
+  - 5) Leave the town
+  nextStates:
+  - {fileID: 11400000, guid: a2a8a7fa886acd0429fda9a0f60535dd, type: 2}
+  - {fileID: 11400000, guid: 3a83d7070507954469c44a9dc8e095a9, type: 2}
+  - {fileID: 11400000, guid: d1c7683d3e4bc94428015c506bef782c, type: 2}
+  - {fileID: 11400000, guid: 9371dd6225dd17a40a6e75e6eeea32f7, type: 2}

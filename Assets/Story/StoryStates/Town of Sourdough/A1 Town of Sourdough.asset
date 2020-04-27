@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f565b24a783e611429de5f64e715a603, type: 3}
+  m_Name: A1 Town of Sourdough
+  m_EditorClassIdentifier: 
+  spaceTitle: Town of Sourdough
+  ContainerImage: {fileID: 21300000, guid: ea9975b25b85d4345a886980a080d388, type: 3}
+  storyText: "You are in the Town of Sourdough. The town elders, known as the Delicatessen,
+    believe they have found the perfect yeast. To bring Peace to Yeaster Island,
+    they encourage you to spread the message, and the yeast, across the island. \r"
+  options: 1) Continue
+  optionsArray:
+  - 1) Continue
+  nextStates:
+  - {fileID: 11400000, guid: d1c7683d3e4bc94428015c506bef782c, type: 2}

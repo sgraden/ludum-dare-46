@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f565b24a783e611429de5f64e715a603, type: 3}
+  m_Name: A5 Yeast Lab
+  m_EditorClassIdentifier: 
+  spaceTitle: Yeast Lab
+  ContainerImage: {fileID: 0}
+  storyText: 'This is the Yeast Lab. The place where the Mother Yeast  was monitored,
+    grown, and perfected. This is the closest you will ever be to the place that
+    gods are made.
+
+
+
+'
+  options: '1) Ask about handling the yeast you will travel with.
+
+
+    2) Purchase
+    a yeast protection plan
+
+
+    3) Back to town'
+  optionsArray:
+  - 1) Ask about handling the yeast you will travel with.
+  nextStates:
+  - {fileID: 11400000, guid: fd4401e0c659a294ca9600574736f066, type: 2}
+  - {fileID: 11400000, guid: cf01f46732243164e822a8ecff910205, type: 2}
+  - {fileID: 11400000, guid: 98f832a2c1c0b0d4a8d32c7e00a5c87e, type: 2}
